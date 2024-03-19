@@ -1,0 +1,37 @@
+wtf:
+  colors:
+    border:
+      focusable: darkslateblue
+      focused: orange
+      normal: gray
+  grid:
+    columns: [32, 32, 32, 32, 90]
+    rows: [10, 10, 10, 4, 4, 90]
+  refreshInterval: 1
+  mods:
+    weather_basel:
+      type: prettyweather
+      enabled: true
+      city: "basel"
+      position:
+          top: 0
+          left: 0
+          height: 1
+          width: 1
+      refreshInterval: 5m
+      unit: "m"
+      view: 0
+      language: "en"
+    weather_brugg:
+      type: prettyweather
+      enabled: true
+      city: "brugg"
+      position:
+          top: 1
+          left: 0
+          height: 1
+          width: 1
+      refreshInterval: 5m
+      unit: "m"
+      view: 0
+      language: "en"
