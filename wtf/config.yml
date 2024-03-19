@@ -5,11 +5,12 @@ wtf:
       focused: orange
       normal: gray
   grid:
-    columns: [32, 32, 32, 32, 90]
-    rows: [10, 10, 10, 4, 4, 90]
+    columns: [32, 32, 32, 32, 32, 200]
+    rows: [10, 10, 10, 10, 200]
   refreshInterval: 1
   mods:
     weather_basel:
+      title: "Basel"
       type: prettyweather
       enabled: true
       city: "basel"
@@ -23,6 +24,7 @@ wtf:
       view: 0
       language: "en"
     weather_brugg:
+      title: "Brugg"
       type: prettyweather
       enabled: true
       city: "brugg"
@@ -35,3 +37,37 @@ wtf:
       unit: "m"
       view: 0
       language: "en"
+    resourceusage:
+      cpuCombined: false
+      enabled: true
+      graphStars: 18
+      position:
+        top: 0
+        left: 1
+        height: 2
+        width: 1
+      refreshInterval: 1s
+      showCPU: true
+      showMem: true
+      showSwp: true
+    ipapi:
+      colors:
+        name: red
+        value: white
+      # Optional  
+      args:
+        - "ip"
+        - "isp"
+        - "as"
+        - "city"
+        - "regionName"
+        - "country"
+        - "organization"
+        - "reverseDNS"
+      enabled: true
+      position:
+        top: 0
+        left: 2
+        height: 1
+        width: 2
+      refreshInterval: 150s
