@@ -1,6 +1,5 @@
-/*
-!/.config/
-/.config/*
-!/.config/alacritty/
-!/.config/wtf/
-!/.config/nvim/
+.DS_store
+configstore
+iterm2
+wtf/log.txt
+gh

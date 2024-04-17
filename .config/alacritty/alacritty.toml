@@ -1,6 +1,0 @@
-working_directory = "/data/git"
-
-[shell]
-program= "/bin/bash"
-args= ["-l", "-c", "tmux attach || tmux"]
-
