@@ -1,5 +1,4 @@
-.DS_store
-configstore
-iterm2
-wtf/log.txt
-gh
+/*
+!/alacritty
+!/wtf/
+!/nvim/
