@@ -2,4 +2,22 @@ working_directory = "/data/git"
 
 [shell]
 program = "/bin/bash"
-args = ["-l", "-c", "tmux attach || tmux"]
+args = ["-l", "-c", "tmux"]
+
+[window]
+startup_mode = "Maximized"
+
+[cursor]
+style = { shape = "Beam", blinking = "Off" }
+vi_mode_style = { shape = "Block", blinking = "Off" }
+
+[keyboard]
+bindings = [
+	{ key = "+", mods = "Control | Shift", action = "IncreaseFontSize" },
+	{ key = "-", mods = "Control", action = "DecreaseFontSize" },
+
+	{ key = "c", mods = "Control | Shift", action = "Copy" },
+	{ key = "p", mods = "Control | Shift", action = "Paste" },
+
+	{ key = "q", mods = "Control | Shift", action = "Quit" },
+]
