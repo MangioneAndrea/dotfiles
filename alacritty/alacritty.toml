@@ -20,4 +20,17 @@ bindings = [
 	{ key = "p", mods = "Control | Shift", action = "Paste" },
 
 	{ key = "q", mods = "Control | Shift", action = "Quit" },
+
+	# MacOS + tmux
+	{ key = "t", mods = "Command", chars= "\u0002c" },
+	{ key = "w", mods = "Command", chars= "\u0002&" },
+	{ key = "1", mods = "Command", chars= "\u0002w1" },
+	{ key = "2", mods = "Command", chars= "\u0002w2" },
+	{ key = "3", mods = "Command", chars= "\u0002w3" },
+	{ key = "4", mods = "Command", chars= "\u0002w4" },
+	{ key = "5", mods = "Command", chars= "\u0002w5" },
+	{ key = "6", mods = "Command", chars= "\u0002w6" },
+	{ key = "7", mods = "Command", chars= "\u0002w7" },
+	{ key = "8", mods = "Command", chars= "\u0002w8" },
+	{ key = "9", mods = "Command", chars= "\u0002w9" },
 ]
