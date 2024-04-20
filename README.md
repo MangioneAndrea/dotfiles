@@ -1,11 +1,11 @@
 # .files
 Generic setup for unix-like
 
-Set up with alacritty, tmux
+Set up with alacritty, tmux and neovim
 
 ## Setup
 ```
-git clone https://github.com/MangioneAndrea/dotfiles ~/.config
+git clone --recurse-submodules https://github.com/MangioneAndrea/dotfiles ~/.config
 
 cp ~/.config/.inputrc ~/.inputrc
 ```
